@@ -1,0 +1,53 @@
+.mainContent{
+    text-align: center;
+}
+.gameContainer {
+    vertical-align: middle;
+    background-color: aquamarine;
+}
+.gameBoard {
+    max-height: 616px;
+    max-width: 500px;
+    /* text-align: center; */
+    margin: 0px auto;
+    display: inline-block;
+}
+.allButtons{
+    display: inline-block;
+    text-align: center;
+    margin: 0px auto;
+    max-width: 304px;
+}
+.dirButton{
+    text-decoration: none;
+    border: 1px grey;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    padding: 15px;
+    display: inline-block;
+}
+.row{
+    /* padding: 15px; */
+    margin-top: 10px;
+}
+.compas{
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 25%;
+}
+.interractiveParts{
+    display: inline-block;
+}
+.allOutput{
+    display: inline-block;
+    max-width: 50%;
+}
+.consoleOutputs{
+    list-style-type: none;
+}
+li{
+    text-align: left;
+    margin-left: -10%;
+}
