@@ -1,3 +1,17 @@
+* {
+    /* outline: 1px dotted red; */
+}
+.header {
+    text-align: center;
+}
+.header p {
+    padding: 5px 20px;
+}
+#title{
+    margin: 0px;
+    padding: 15px;
+    background-image: linear-gradient(to right bottom, rgba(9, 191, 236, 0.801), lightblue, lightblue);
+}
 .mainContent{
     text-align: center;
 }
@@ -32,17 +46,23 @@
     /* padding: 15px; */
     margin-top: 10px;
 }
-.compas{
+.compass{
     display: inline-block;
     vertical-align: middle;
     min-width: 25%;
 }
-.interractiveParts{
+.interactiveParts{
     display: inline-block;
 }
-.allOutput{
+.players-held-items{
+    vertical-align: top;
     display: inline-block;
     max-width: 50%;
+}
+.holdingItem {
+    height: 50px;
+    margin: 5px 5px;
+    /* display: inline-block; */
 }
 .consoleOutputs{
     list-style-type: none;
@@ -50,4 +70,17 @@
 li{
     text-align: left;
     margin-left: -10%;
+}
+@media only screen and (min-width: 1001px) { /*phone*/
+}
+@media only screen and (min-width: 1301px) { /*comp screen*/
+    
+}
+@media only screen and (min-width: 1701px) { /*large*/
+    .header p{
+        width: 1300px;
+        margin: 0px auto;   
+
+    }
+    
 }

@@ -1,7 +1,6 @@
-<p>pooh works!</p>
-<div class="mainContent">
-    <h1>Winnie The Pooh</h1>
-    <p>more stuffs Lorem Ipsum has been the industry's standard dummy text
+<div class="header">
+    <h1 id="title">Winnie The Pooh</h1>
+    <p> ******  rule of the game?  ******** more stuffs Lorem Ipsum has been the industry's standard dummy text
         ever since the 1500s, when an unknown printer took a galley of type
         and scrambled it to make a type specimen book. It has survived not
         only five centuries, but also the leap into electronic typesetting,
@@ -9,57 +8,47 @@
         the release of Letraset sheets containing Lorem Ipsum passages, and more
         recently with desktop publishing software like Aldus PageMaker
         including versions of Lorem Ipsum.</p>
+</div>
+<div class="mainContent">
     <img src="./../../assets/images/hundredacrewood.png"
         alt="Game Map" class="gameBoard">
-    <div class="interractiveParts">
-        <div class="allOutput">
-            <ul class="consoleOutputs">
-                <li class="row">
-                    unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem I
-                </li>
-                <li class="row">
-                    unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem I
-                </li>
-                <li class="row">
-                    unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem I
-                </li>
-                <li class="row">
-                    unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem I
-                </li>
-                <li class="row">
-                    unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem I
-                </li>
-                <li class="row">
-                    unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem I
-                </li>
-
-
-            </ul>
-
+    <div class="interactiveParts">
+        <div class="players-held-items">
+            <h6>Everything you are holding</h6>
+            <img src="./../../assets/images/items/honeyPot.jfif" alt="honeyPot" class="holdingItem">
+            <img src="./../../assets/images/items/honeyPot.jfif" alt="honeyPot" class="holdingItem">
+            <img src="./../../assets/images/items/honeyPot.jfif" alt="honeyPot" class="holdingItem">
+            <img src="./../../assets/images/items/honeyPot.jfif" alt="honeyPot" class="holdingItem">
+            <img src="./../../assets/images/items/honeyPot.jfif" alt="honeyPot" class="holdingItem">
+            <img src="./../../assets/images/items/honeyPot.jfif" alt="honeyPot" class="holdingItem">
+            <img src="./../../assets/images/items/honeyPot.jfif" alt="honeyPot" class="holdingItem">
+            <img src="./../../assets/images/items/honeyPot.jfif" alt="honeyPot" class="holdingItem">
+            <img src="./../../assets/images/items/honeyPot.jfif" alt="honeyPot" class="holdingItem">
+            <img src="./../../assets/images/items/honeyPot.jfif" alt="honeyPot" class="holdingItem">
+            <img src="./../../assets/images/items/honeyPot.jfif" alt="honeyPot" class="holdingItem">
+            <img src="./../../assets/images/items/honeyPot.jfif" alt="honeyPot" class="holdingItem">
+            <img src="./../../assets/images/items/honeyPot.jfif" alt="honeyPot" class="holdingItem">
+            <img src="./../../assets/images/items/honeyPot.jfif" alt="honeyPot" class="holdingItem">
+            <img src="./../../assets/images/items/honeyPot.jfif" alt="honeyPot" class="holdingItem">
+            <img src="./../../assets/images/items/honeyPot.jfif" alt="honeyPot" class="holdingItem">
+            <img src="./../../assets/images/items/honeyPot.jfif" alt="honeyPot" class="holdingItem">
+            <img src="./../../assets/images/items/honeyPot.jfif" alt="honeyPot" class="holdingItem">
         </div>
         <div class="allButtons">
-
-            <div class="row">
-                <a href="/north" class="dirButton">North</a>
+            <div (click)="moveNorth()" class="row">
+                <div  href="" class="dirButton">North</div>
             </div>
-
             <div class="row middleRow">
-                <a href="/east" class="dirButton">East</a>
-                <!-- <div class="compas"> -->
-                <img class="compas"
+                <div (click)="moveEast()" href="" class="dirButton">East</div>
+                <!-- <div class="compass"> -->
+                <img class="compass"
                     src="./../../assets/images/compas.gif"
-                    alt="compas img">
+                    alt="compass img">
                 <!-- </div> -->
-                <a href="/west" class="dirButton">West</a>
+                <div (click)="moveWest()" href="" class="dirButton">West</div>
             </div>
             <div class="row">
-                <a href="/south" class="dirButton">South</a>
+                <div (click)="moveSouth()" href="" class="dirButton">South</div>
             </div>
         </div>
 
