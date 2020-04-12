@@ -1,5 +1,5 @@
 * {
-    /* outline: 1px dotted red; */
+    outline: 1px dotted red;
 }
 .header {
     text-align: center;
@@ -20,8 +20,10 @@
     background-color: aquamarine;
 }
 .gameBoard {
-    max-height: 616px;
-    max-width: 500px;
+    /* max-height: 616px;
+    max-width: 500px; */
+    min-width: 500px;
+    min-height: 500px;
     /* text-align: center; */
     margin: 0px auto;
     display: inline-block;
@@ -44,7 +46,21 @@
 }
 .row{
     /* padding: 15px; */
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    display: block;
+}
+.col {
+    display: inline-block;
+    /* height: 100px; */
+    /* width: 100px; */
+    margin: 0px 1em;
+}
+.char {
+    height: 100px;
+    width: 100px;
+}
+.invisible {
+    background-color: lightgray;
 }
 .compass{
     display: inline-block;
@@ -83,4 +99,7 @@ li{
 
     }
     
+}
+#playerIcon {
+    width: 40px;
 }

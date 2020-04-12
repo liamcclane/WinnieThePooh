@@ -10,8 +10,63 @@
         including versions of Lorem Ipsum.</p>
 </div>
 <div class="mainContent">
-    <img src="./../../assets/images/hundredacrewood.png"
-        alt="Game Map" class="gameBoard">
+    <img src="./../../assets/images/youAreHere.png" alt="here" id="playerIcon">
+    <div class="gameBoard">
+        <div class="row">
+            <div class="col invisible">Empty</div>
+            <div class="col">Eyore
+                <img src="./../../assets/images/characters/eyore.jpg" alt="eyore" class="char">
+                </div>
+            <div class="col">Hefalump
+                <img src="./../../assets/images/characters/heffalump.png" alt="Hefalump" class="char">
+            </div>
+            <div class="col invisible">Empty</div>
+        </div>
+        <div class="row">
+            <div class="col invisible ">Empty</div>
+            <div class="col">Kanga
+                <img src="./../../assets/images/characters/kangaAndRoo.jfif" alt="Kanga" class="char">
+            </div>
+            <div class="col invisible ">Empty</div>
+            <div class="col invisible ">Empty</div>
+        </div>
+        <div class="row">
+            <div class="col ">Owl
+                <img src="./../../assets/images/characters/owl" alt="owl" class="char">
+            </div>
+            <div class="col ">Christopher Robin
+                <img src="./../../assets/images/characters/chris.gif" alt="Christopher Robin" class="char">
+            </div>
+            <div class="col ">Rabbit
+                <img src="./../../assets/images/characters/rabbit.png" alt="Rabbit" class="char">
+            </div>
+            <div class="col ">Beaver
+                <img src="./../../assets/images/characters/" alt="Beaver" class="char">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col ">Piglet
+                <img src="./../../assets/images/characters/piglet.png" alt="Piglet" class="char">
+            </div>
+            <div class="col ">Winnie the Pooh</div>
+            <div class="col ">Bees
+                <img src="./../../assets/images/characters/bees.gif" alt="Bees" class="char">
+            </div>
+            <div class="col invisible ">Empty</div>
+        </div>
+        <div class="row">
+            <div class="col invisible ">Empty</div>
+            <div class="col ">Tigger
+                <img src="./../../assets/images/characters/tigger.png" alt="Tigger" class="char">
+            </div>
+            <div class="col invisible ">Empty</div>
+            <div class="col invisible ">Empty</div>
+        </div>
+    </div>
+    <!-- <img src="./../../assets/images/hundredacrewood.png"
+        alt="Game Map" class="gameBoard"> -->
+        <img src="./../../assets/images/hundredacrewood.png"
+        alt="Game Map">
     <div class="interactiveParts">
         <div class="players-held-items">
             <h6>Everything you are holding</h6>
@@ -42,7 +97,7 @@
                 <div (click)="moveEast()" href="" class="dirButton">East</div>
                 <!-- <div class="compass"> -->
                 <img class="compass"
-                    src="./../../assets/images/compas.gif"
+                    src="./../../assets/images/compass.gif"
                     alt="compass img">
                 <!-- </div> -->
                 <div (click)="moveWest()" href="" class="dirButton">West</div>
